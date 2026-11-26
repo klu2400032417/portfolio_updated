@@ -1,0 +1,105 @@
+:root {
+  --bg-950: #080b14;
+  --bg-900: #0d1220;
+  --bg-800: #131a2d;
+  --violet-400: #a78bfa;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-950);
+  color: #e2e8f0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-night-950 {
+  background-color: var(--bg-950);
+}
+
+.bg-night-950\/85 {
+  background-color: rgba(8, 11, 20, 0.85);
+}
+
+.bg-night-950\/90 {
+  background-color: rgba(8, 11, 20, 0.9);
+}
+
+.bg-night-900 {
+  background-color: var(--bg-900);
+}
+
+.bg-night-900\/50 {
+  background-color: rgba(13, 18, 32, 0.5);
+}
+
+.bg-night-800 {
+  background-color: var(--bg-800);
+}
+
+.bg-night-800\/80 {
+  background-color: rgba(19, 26, 45, 0.8);
+}
+
+.bg-night-800\/70 {
+  background-color: rgba(19, 26, 45, 0.7);
+}
+
+.text-violetx-400 {
+  color: var(--violet-400);
+}
+
+.bg-violetx-600 {
+  background-color: var(--violet-600);
+}
+
+.bg-violetx-600\/15 {
+  background-color: rgba(124, 58, 237, 0.15);
+}
+
+.bg-violetx-600\/20 {
+  background-color: rgba(124, 58, 237, 0.2);
+}
+
+.border-violetx-500\/30 {
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.border-violetx-500\/40 {
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+.glass-card {
+  background: linear-gradient(180deg, rgba(22, 29, 49, 0.92) 0%, rgba(15, 21, 37, 0.96) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.16);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(139, 92, 246, 0.42);
+}
+
+.hero-glow {
+  background: radial-gradient(
+    circle at 65% 40%,
+    rgba(124, 58, 237, 0.28) 0%,
+    rgba(109, 40, 217, 0.08) 45%,
+    transparent 72%
+  );
+}
+
+.purple-btn {
+  background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+}
+
+.purple-btn:hover {
+  background: linear-gradient(135deg, #9d74f7 0%, #7c3aed 100%);
+}
